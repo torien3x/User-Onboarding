@@ -125,7 +125,7 @@ export default function App() {
           <fieldset>
             <legend>Favorite Language:</legend>
             <label>
-              <input type="radio" name="favLanguage" checked={values.favLanguage == 'javascript'} onChange={onChange} value="javascript" />
+              <input type="radio" id='favLanguage' name="favLanguage" checked={values.favLanguage == 'javascript'} onChange={onChange} value="javascript" />
               JavaScript
             </label>
             <label>
